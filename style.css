@@ -6,19 +6,52 @@ body{
 }
 
 #Main{
-    background-color: black;
-    color: blanchedalmond;
     text-align: justify;
-    width: 50%;
+    width: 75%;
     margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 p{
+    clear: both;
+    font-family: cursive;
     color: blanchedalmond;
     text-align: justify;
     width: 75%;
     margin: 10px auto;
+    font-size: 18px;
 }
 
 img{
     width: 100%;
+    opacity: 1;
 }
+
+nav{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+button{
+    width: 33%;
+    height: 61px;
+    text-align: center;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #295971;
+    border-color:  #093951;
+    color: blanchedalmond;
+}
+
+button:active{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+
+
