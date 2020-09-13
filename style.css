@@ -1,36 +1,49 @@
 body{
     background-image: url(BG.jpg);
-    background-position: center;
+    background-position: top;
     background-repeat: repeat-y;
     background-size: cover;
+
 }
 
 #Main{
     text-align: justify;
     width: 75%;
-    margin: auto;
+    margin: 0px auto;
     background-color: rgba(0, 0, 0, 0.7);
+    padding: 0px;
 }
-p{
+h2,h3,p{
     clear: both;
     font-family: cursive;
     color: blanchedalmond;
-    text-align: justify;
+    text-align: center;
     width: 75%;
     margin: 10px auto;
+}
+h2{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h3{
+    padding-top: 33px;
+    font-size: 24px;
+}
+p{
+    text-align: justify;
+    color: white;
     font-size: 18px;
 }
 
-img{
+#logo{
     width: 100%;
-    opacity: 1;
 }
 
 nav{
     width: 90%;
     margin: auto;
 }
-
 
 
 button{
@@ -54,4 +67,45 @@ button:focus{
     outline: none;
 }
 
+#shh{
+    float: left;
+    width: 20%;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 100%;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 100%;
+    padding: 0px 4px;
+  }
+  
+  .column img {
+    display: block;
+    margin: 8px auto;
+    width: 75%;
+    border-color: blue;
+    border-style: solid;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other 
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }*/

@@ -8,22 +8,39 @@
 </head>
 <body>
     <div id="Main">
-        <img src="AmongUs_bg_400x225.png" alt="logo">
+        <img id="logo" src="AmongUs_bg_400x225.png" alt="logo">
         <nav>
-            <button tabindex="-1">Gameplay</button>
-            <button tabindex="-1">Screenshots</button>
-            <button tabindex="-1">Credits</button>
+            <a href="#gameplay"><button tabindex="-1">Gameplay</button></a>
+            <a href="#screenshots"><button tabindex="-1">Screenshots</button></a>
+            <a href="#credits"><button tabindex="-1">Credits</button></a>
         </nav>
-        <div id = "divToShowHide" class = "BeforeScroll">
+        <h2>
+        Join your crewmates in a multiplayer game of teamwork 
+        and <span style="color: darkred; font-size: 115%;">betrayal!</span>
+        </h2>
+        <h3 id="gameplay">Gameplay</h3>
         <p>
-        Join your crewmates in a multiplayer game of teamwork and betrayal!
-        </p><p>
         Play online or over local wifi with 4-10 players as you attempt to hold your spaceship together and return back to civilization. But beware...as there may be an alien impostor aboard!
         </p><p>
+        <img id="shh" src="shh.jpg" alt="it's a secret">
         One crewmate has been replaced by a parasitic shapeshifter. Their goal is to eliminate the rest of the crew before the ship reaches home. The Impostor will sabotage the ship, sneak through vents, deceive, and frame others to remain anonymous and kill off the crew.
         </p><p>
         While everyone is fixing up the ship, no one can talk to maintain anonymity. Once a body is reported, the surviving crew will openly debate who they think The Impostor is. The Impostor's goal is to pretend that they are a member of the crew. If The Impostor is not voted off, everyone goes back to maintaining the ship until another body is found. If The Impostor is voted off, the crew wins!
         </p>
+        <h3 id="screenshots">Screenshots</h3>
+        <div class="row">
+            <div class="column">
+                <img src="Screenshots/lobby.png" alt="lobby">
+                <img src="Screenshots/impostorkills.png" alt="impostorkills">
+            </div>
+            <div class="column">
+                <img src="Screenshots/crewVic.png" alt="crewvictory">
+                <img src="Screenshots/wireTask.png" alt="task">
+            </div>
+            <div class="column">
+                <img src="Screenshots/vision.jpg" alt="vision">
+                <img src="Screenshots/map.webp" alt="map">
+            </div>
         </div>
     </div>
 </body>
